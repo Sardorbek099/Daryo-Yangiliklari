@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+.theme {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.first img {
+    width: 100%;
+}
+
+.title {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.title a {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 18px;
+    color: #000000;
+    margin: 10px 0;
+    line-height: 25px;
+
+}
+
+.second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.second img {
+    width: 100%;
+}
+
+.background {
+    background-color: azure;
+}
+
+.interview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interview .link {
+    margin: 10px 0;
+}
+
+.interview .link a {
+    text-decoration: none;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.third img {
+    width: 100%;
+}
+
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.fourth img {
+    width: 100%;
+}
+
+
+@media screen and (max-width:414px) {
+    .main {
+        padding: 10px;
+    }
+
+    .theme {
+        font-size: 20px;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .second {
+        grid-template-columns: 1fr;
+    }
+
+    .display {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .item {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width:415px) and (max-width:768px) {
+    .main {
+        padding: 15px;
+    }
+
+    .theme {
+        font-size: 25px;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .second {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .display {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .item {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .main {
+        padding: 20px;
+    }
+
+    .theme {
+        font-size: 25px;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .second {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .display {
+        grid-template-columns: 1fr;
+    }
+
+    .item {
+        grid-template-columns: 1fr 1fr;
+    }
+}
